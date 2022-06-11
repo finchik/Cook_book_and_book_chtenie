@@ -128,12 +128,12 @@ def rewrite_file(path1=None, path2=None, path3=None):
 if __name__ == '__main__':
     filename = "recipes.txt"
     cook_book = read_cookbook()
-    print('Задание 1------------------------------------------------------------')
+    print('-------------------Задание 1--------------------')
     time.sleep(1)
     print(cook_book)
-    print('Задание 2------------------------------------------------------------')
+    print('-------------------Задание 2--------------------')
     pprint(get_shop_list_by_dishes(dishes=['Запеченный картофель', 'Омлет'], person_count=2))
 
     time.sleep(2)
-    print('Задание 3. Создан новый текстовый документ в папке sorted')
+    print('---------------Задание 3. Создан новый текстовый документ в папке sorted----------------')
     rewrite_file()
